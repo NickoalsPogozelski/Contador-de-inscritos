@@ -16,7 +16,7 @@ def subscribers():
         OldSubCount = subs
 
     if subs > OldSubCount:       
-        playsound('{}') #nas chaves você bota o caminho para o arquivo de som
+        playsound('{}') #substitua as chaves pelo caminho para o arquivo de som
         OldSubCount = subs
         
     print(subs)
